@@ -23,7 +23,6 @@ public class Manager : MonoBehaviour {
 
 	void OnGUI()
 	{
-//		if (GUI.Button (new Rect (0,0,Screen.width / 6,Screen.height /6), "Active")) {
 		if (GUI.Button (new Rect (0,0,Screen.width / 6,Screen.height /6), ButtonStr)) {
 
 			StartCoroutine(SceneMove());
@@ -79,6 +78,5 @@ public class Manager : MonoBehaviour {
 **/
 
 	}
-
-
 }
+
